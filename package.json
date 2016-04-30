@@ -1,0 +1,12 @@
+{
+	"name": "Portfolio",
+	"version": "0.1.0",
+	"dependencies":
+	{
+		"express": "~4.13.4",
+		"socket.io" : "~1.4.5",
+		"fs": "~0.0.2"
+	},
+	"author": "ManonPrinity <manonnoblet@gmail.com>",
+	"description": "My portfolio"
+}

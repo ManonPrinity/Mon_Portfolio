@@ -5,6 +5,7 @@ var fs = require("fs");
 
 app.use(express.static(__dirname + "/public"));
 
+
 app.get("/", function(req, res)
 {
 	fs.readFile("./index.html", "utf-8", function(error, content)

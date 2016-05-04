@@ -16,3 +16,51 @@ p { margin: 0;}
 .title_text { padding: 64px 0px;}
 	.title_text h2 { margin-bottom: 42px; font-size: 42px; font-weight: 300; color: #000;}
 .title_text p { box-sizing: border-box; max-width: 600px; line-height: 32px; margin: auto; padding: 0px 10px; font-size: 16px; font-weight: 300;}
+
+.bloc_content .myButton { box-shadow:inset 0px 1px 0px 0px #ffffff; background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0); background-color:#f9f9f9; border-radius:6px; border:1px solid #dcdcdc; display:inline-block; cursor:pointer; color:#666666; font-family:"Open Sans"; font-size:11px; font-weight:bold; padding:3px 12px; text-decoration:none; text-shadow:0px 1px 0px #ffffff;}
+			.bloc_content .myButton:hover { background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0); background-color:#e9e9e9;}
+			.bloc_content .myButton:active { position: relative; top: 1px; }
+
+.img_profil { padding: 64px 0px;}
+	.img_profil img { display: block; position: relative; height: 20%; width: auto; margin: auto; border: 2px solid #ddd; }
+
+#main_div { margin: 20px;}
+
+#CompP { display: block; width: 100%; border: 1px solid #dedede; background: #fff;}
+	#CompP .header { display: block; box-sizing: border-box; width: 100%; height: 40x; line-height: 40px; padding-left: 40px; border-bottom: 1px solid #eee; background-color: #f6f6f6; background-image: url("../img/list.svg"); background-size: 20px 20px; background-position: 10px 10px; background-repeat: no-repeat; font-size: 16px; font-weight: 700;}
+	#CompP .stat { display: block; box-sizing: border-box; width: 100%; height: 60px; border-bottom: 1px solid #eaeaea;}
+	#CompP .stat:hover { cursor: pointer;}
+	#CompP .stat:last-child { border-bottom: none;}
+		#CompP .stat .img_container { display: inline-block; vertical-align: top; box-sizing: border-box; width: 40px; height: 40px; margin: 10px; border-radius: 50%;background-size: 20px 20px; background-position: 50% 50%; background-repeat: no-repeat;}
+		#CompP .stat .txt_container { display: inline-block; vertical-align: top; box-sizing: border-box; width: calc(100% - 60px); height: 40px;}
+			#CompP .stat .txt_container .value { display: inline-block; vertical-align: top; box-sizing: border-box; height: 60px; line-height: 60px; padding-right: 10px; font-size: 18px; font-weight: 500;}
+			#CompP .stat .txt_container .name { display: inline-block; vertical-align: top; box-sizing: border-box; height: 60px; line-height: 60px; font-size: 14px;}
+	#CompP .htmlcss:hover { background-color: #def;}
+		#CompP .htmlcss .img_container { background-color: #35c; background-image: url("");}
+	#CompP .php:hover { background-color: #edf;}
+		#CompP .php .img_container { background-color: #95c; background-image: url("");}
+	#CompP .js:hover { background-color: #fee;}
+		#CompP .js .img_container { background-color: #a33; background-image: url("");}
+	#CompP .death:hover { background-color: #eef;}
+		#CompP .death .img_container { background-color: #335; background-image: url("");}
+	#CompP .revive:hover { background-color: #efd;}
+		#CompP .revive .img_container { background-color: #7c5; background-image: url("");}
+	#CompP .capture:hover { background-color: #fec;}
+		#CompP .capture .img_container { background-color: #f92; background-image: url("");}
+	#CompP .money:hover { background-color: #fed;}
+		#CompP .money .img_container { background-color: #753; background-image: url("");}
+
+#formulaire { font-size: 15px; padding-top: 7px; display: block; border: 1px solid #dedede; display: block; box-sizing: border-box; width: 100%; height: 40x; line-height: 40px; padding-left: 40px;}
+		#form_container { display: block; position: relative; right: 0px; left: 0px text-align: center; width: 50%;  }
+		#form_container label { left: 0px; }
+		#formulaire .title_form { }
+		#formulaire .name { padding-top: 5px; font-size: 10px;}
+		#formulaire .mail { padding-top: 5px; font-size: 10px;}
+		#formulaire .message { padding-top: 10px; font-size: 10px;}
+			#formulaire .myButton { box-shadow:inset 0px 1px 0px 0px #ffffff; background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0); background-color:#f9f9f9; border-radius:6px; border:1px solid #dcdcdc; display:inline-block; cursor:pointer; color:#666666; font-family:"Open Sans"; font-size:11px; font-weight:bold; padding:3px 12px; text-decoration:none; text-shadow:0px 1px 0px #ffffff;}
+			#formulaire .myButton:hover { background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0); background-color:#e9e9e9;}
+			#formulaire .myButton:active { position: relative; top: 1px;}
+
+footer { height: 15%; display: block; width: 100%; border-top: 1px solid #ddd; margin-top: 20px; box-sizing: border-box;}
+	#footer_content { font-size: 14px; font-family: "Open Sans"; display: block; height: 20px; height: 25px;}
+		#footer_content img { height: 40px; padding: 10px; }
